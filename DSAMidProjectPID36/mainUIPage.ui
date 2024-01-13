@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1042</width>
+    <height>875</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #27005D;
+</string>
+  </property>
+  <widget class="QPushButton" name="SingleColSort">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>350</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(100, 23, 255);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Single Column Sorting</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MultiColSort">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>420</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgb(100, 23, 255);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Multi Level Sorting</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>120</y>
+     <width>501</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>501</width>
+     <height>131</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>53</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #E4F1FF;
+font: 75 53pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>E-Commerce</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>120</y>
+     <width>501</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>501</width>
+     <height>131</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>53</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #E4F1FF;
+font: 75 53pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Scrapper</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MultiColSearch">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>560</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgb(100, 23, 255);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Multi Level Searching</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SingleColSearch">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>490</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(100, 23, 255);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Single Column Searching</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

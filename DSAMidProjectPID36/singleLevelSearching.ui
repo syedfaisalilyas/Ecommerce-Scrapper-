@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1042</width>
+    <height>875</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(10, 38, 71);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>651</width>
+     <height>392</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(23, 107, 135);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Description</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Rating</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NoOfRatingsandReviews</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DiscountedPrice</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Delivery</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Percentageoff</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="choice">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>590</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>StartsWith</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>EndWith</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Contains</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>650</y>
+     <width>201</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(32, 82, 149);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>550</y>
+     <width>351</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(10, 38, 71);
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(24, 61, 61, 255), stop:0.471591 rgba(24, 61, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Select Column:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="columnBox">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>550</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Description</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ratings</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NoOfReviews</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DiscountedPrice</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Delivery</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PercentageOff</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>590</y>
+     <width>360</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(10, 38, 71);
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(24, 61, 61, 255), stop:0.471591 rgba(24, 61, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Search </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="query">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>640</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>650</y>
+     <width>201</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(10, 38, 71);
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(24, 61, 61, 255), stop:0.471591 rgba(24, 61, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Search Query</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
